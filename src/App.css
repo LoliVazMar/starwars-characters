@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+h6 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.contenido {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+}

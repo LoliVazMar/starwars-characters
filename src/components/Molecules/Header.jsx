@@ -1,4 +1,4 @@
-import starwars_logo from "../assets/img/starwars_logo.png"
+import starwars_logo from "../../assets/img/starwars_logo.png"
 
 const Header = () => {
     return (

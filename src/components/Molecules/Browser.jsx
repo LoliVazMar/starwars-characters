@@ -1,3 +1,5 @@
+import Button from "../Atom/Button"
+
 const Browser = ({ endSearch, onChange }) => {
 
     return (
@@ -12,7 +14,7 @@ const Browser = ({ endSearch, onChange }) => {
                 <input type="search" id="default-search" value={endSearch} onChange={onChange}
                     className="block w-full p-4 ps-10 text-sm text-zinc-900 border border-zinc-300 rounded-lg bg-zinc-50 focus:ring-amber-500 focus:border-amber-500 dark:bg-zinc-700 dark:border-zinc-600
                      dark:placeholder-zinc-400 dark:text-white dark:focus:ring-amber-500 dark:focus:border-amber-500" placeholder="Busca tu personaje" required />
-                <button type="submit" className="text-black absolute end-2.5 bottom-2.5 bg-amber-300 hover:bg-amber-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-amber-300 dark:hover:bg-amber-400 dark:focus:ring-amber-800">Search</button>
+            <Button/>
             </div>
         </form>
     )
