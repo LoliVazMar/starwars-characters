@@ -1,8 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
+import Button from './components/Atom/Button';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+test('render restart button', () => {
+  render(<Button />)
+  const renderButton = screen.getByRole("button", { name: /Reiniciar/i })
+  expect(renderButton).toBeInTheDocument()
+})
