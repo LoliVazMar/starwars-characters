@@ -1,6 +1,6 @@
 import './App.css';
 import { useEffect, useState } from 'react';
-import { useFetch } from './useFetch';
+import { useFetch } from './hooks/useFetch';
 import Cards from './components/Molecules/Cards';
 import Browser from './components/Molecules/Browser';
 import Header from './components/Molecules/Header';

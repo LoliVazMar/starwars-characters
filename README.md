@@ -1,3 +1,22 @@
+# starwars-characters
+Lista e informacion sobre los personajes de las peliculas de Star Wars
+
+APIs: https://swapi.dev/api/people
+
+OK - Mostrar una lista de los personajes de Star Wars.
+OK - En cada Card de personaje debe mostrarse la informacion detallada del mismo.
+OK -Añadir buscador de personajes.
+
+Extras
+- Subir el proyecto a GitHub
+- Clean code/SOLID
+- Uso de create-react-app
+- Hooks 
+- Testing
+- Caches
+- Dock
+- StoryBook
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
